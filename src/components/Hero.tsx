@@ -8,7 +8,7 @@ export const Hero = () => {
   return (
     <section id="hero" className="hero">
       <Helmet>
-        <title>Home | Do It Right By You - Disability Care Services</title>
+        <title>Home | Healthcare Demo Template - Disability Care Services</title>
         <meta name="description" content="Providing compassionate care, support, and inclusion for individuals with disabilities. In-home care, community activities, and more." />
       </Helmet>
       <div className="hero-content">
@@ -22,16 +22,22 @@ export const Hero = () => {
         </button>
       </div>
       <div className="hero-image">
-        <img 
-          src="/flyer.jpg" 
-          alt="Compassionate Care - Do It Right By You" 
-          className="hero-flyer-image" 
-          onError={(e) => {
-            const target = e.target as HTMLImageElement;
-            target.style.display = 'none';
-            target.parentElement!.innerHTML = '<div class="image-placeholder"><span>Please add flyer.jpg to public folder</span></div>';
-          }}
-        />
+        <div style={{
+          width: '100%',
+          height: '400px',
+          backgroundColor: '#e6f3ff',
+          borderRadius: '12px',
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          justifyContent: 'center',
+          color: '#5DA9DD',
+          border: '2px dashed #5DA9DD'
+        }}>
+          <div style={{fontSize: '5rem', marginBottom: '1rem'}}>💙</div>
+          <div style={{fontWeight: 'bold', fontSize: '1.2rem'}}>Compassionate Care</div>
+          <div style={{color: '#888', fontSize: '0.9rem', marginTop: '0.5rem'}}>Image Placeholder</div>
+        </div>
       </div>
     </section>
   );

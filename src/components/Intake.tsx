@@ -8,7 +8,7 @@ export const Intake = () => {
   return (
     <section className="intake-section" style={{ padding: '4rem 2rem', background: '#f8fbff', minHeight: '80vh' }}>
       <Helmet>
-        <title>Secure Client Intake | Do It Right By You</title>
+        <title>Secure Client Intake | Healthcare Demo Template</title>
         <meta name="description" content="Secure, HIPAA-compliant digital onboarding for new clients." />
       </Helmet>
 
@@ -26,7 +26,7 @@ export const Intake = () => {
           </div>
           <h2 style={{ color: '#333', fontSize: '2.5rem', marginBottom: '1rem' }}>New Client Onboarding</h2>
           <p style={{ color: '#666', maxWidth: '700px', margin: '0 auto', fontSize: '1.1rem' }}>
-            Welcome to Do It Right By You. To begin services, please complete the following secure intake forms. 
+            Welcome to Healthcare Demo Template. To begin services, please complete the following secure intake forms. 
             All data is encrypted and protected in accordance with federal healthcare regulations.
           </p>
         </div>
@@ -46,7 +46,7 @@ export const Intake = () => {
             <strong style={{ display: 'block', marginBottom: '0.5rem', color: '#444' }}>Right to Opt-Out:</strong>
             <p style={{ margin: 0, fontSize: '0.9rem', color: '#555' }}>
               If you prefer paper forms, you have the right to decline this digital process. 
-              Please contact us at <strong>609-947-9520</strong> to have a physical packet mailed to you.
+              Please contact us at <strong>555-123-4567</strong> to have a physical packet mailed to you.
             </p>
           </div>
 

@@ -47,7 +47,7 @@ export const CaregiverGallery = () => {
   return (
     <section className="caregiver-section" style={{ padding: '4rem 2rem', background: '#f8fbff' }}>
       <Helmet>
-        <title>Meet Our Caregivers | Do It Right By You</title>
+        <title>Meet Our Caregivers | Healthcare Demo Template</title>
         <meta name="description" content="Get to know our compassionate and qualified care team. Watch video intros and read bios." />
       </Helmet>
 

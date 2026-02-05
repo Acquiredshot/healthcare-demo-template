@@ -65,7 +65,7 @@ export const DiscoveryQuiz = () => {
   return (
     <section className="quiz-section" style={{ minHeight: '80vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#f0f7ff', padding: '2rem' }}>
       <Helmet>
-        <title>Care Discovery Quiz | Do It Right By You</title>
+        <title>Care Discovery Quiz | Healthcare Demo Template</title>
       </Helmet>
 
       <div className="quiz-card" style={{ background: 'white', maxWidth: '600px', width: '100%', padding: '3rem', borderRadius: '16px', boxShadow: '0 10px 40px rgba(93, 169, 221, 0.2)', textAlign: 'center' }}>

@@ -25,8 +25,8 @@ export const Contact = () => {
   return (
     <section id="contact" className="contact-section">
       <Helmet>
-        <title>Contact Us | Do It Right By You</title>
-        <meta name="description" content="Contact Do It Right By You for compassionate disability care services. Call us at 609-947-9520." />
+        <title>Contact Us | Healthcare Demo Template</title>
+        <meta name="description" content="Contact us for compassionate disability care services. Call us at 555-123-4567." />
       </Helmet>
       <h2 className="section-title">Contact Us</h2>
       
@@ -34,11 +34,11 @@ export const Contact = () => {
         <div className="contact-info">
           <div className="info-item phone">
             <span className="label">Call Us</span>
-            <a href="tel:6099479520" className="value">609-947-9520</a>
+            <a href="tel:5551234567" className="value">555-123-4567</a>
           </div>
           <div className="info-item email">
             <span className="label">Email Us</span>
-            <a href="mailto:doitrightbyyou.provider@gmail.com" className="value">doitrightbyyou.provider@gmail.com</a>
+            <a href="mailto:demo@healthcare-template.com" className="value">demo@healthcare-template.com</a>
           </div>
           <div className="info-item social">
             <span className="label">Follow Us</span>

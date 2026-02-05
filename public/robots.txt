@@ -3,4 +3,4 @@ Allow: /
 Disallow: /portal
 Disallow: /booking
 
-Sitemap: https://www.doitrightbyyou.com/sitemap.xml
+Sitemap: https://www.healthcare-demo-template.com/sitemap.xml

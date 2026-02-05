@@ -4,16 +4,16 @@ import { Helmet } from 'react-helmet-async';
 export const LocalSEO = () => {
   // Replace these with the actual business details
   const businessDetails = {
-    name: "Do It Right By You",
+    name: "Healthcare Demo Template",
     description: "Premium Home Health Care & Companion Services",
-    url: "https://www.doitrightbyyou.com",
-    logo: "https://www.doitrightbyyou.com/logo.png",
-    telephone: "+1-609-947-9520",
+    url: "https://www.healthcare-demo-template.com",
+    logo: "https://www.healthcare-demo-template.com/logo.png",
+    telephone: "+1-555-123-4567",
     address: {
-      streetAddress: "80 Laurel Ave", // Update with actual address
-      addressLocality: "Trenton", // Inferred from area code 609
+      streetAddress: "123 Healthcare Way", // Update with actual address
+      addressLocality: "Cityville", // Inferred from area code 609
       addressRegion: "NJ",
-      postalCode: "08618",
+      postalCode: "00000",
       addressCountry: "US"
     },
     geo: {
@@ -62,9 +62,9 @@ export const LocalSEO = () => {
     },
     "priceRange": businessDetails.priceRange,
     "sameAs": [
-      "https://www.facebook.com/doitrightbyyou",
-      "https://www.instagram.com/doitrightbyyou",
-      "https://twitter.com/doitrightbyyou"
+      "https://www.facebook.com/healthcaredemo",
+      "https://www.instagram.com/healthcaredemo",
+      "https://twitter.com/healthcaredemo"
     ]
   };
 

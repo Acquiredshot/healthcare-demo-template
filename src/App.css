@@ -163,7 +163,7 @@
   display: flex;
   justify-content: center;
 }
-
+/* 
 .hero-flyer-image {
   width: 100%;
   height: auto;
@@ -174,7 +174,8 @@
 
 .hero-flyer-image:hover {
   transform: scale(1.02);
-}
+} 
+*/
 
 .image-placeholder {
   width: 100%;

@@ -6,7 +6,7 @@ export const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="navbar-brand">Do It Right By You</div>
+      <div className="navbar-brand">Healthcare Demo Template</div>
       <button className="navbar-toggle" onClick={() => setIsOpen(!isOpen)}>
         ☰
       </button>

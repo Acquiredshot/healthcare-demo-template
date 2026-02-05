@@ -32,7 +32,7 @@ function App() {
         <div className="app-container">
           <Navbar />
           <header className="header-brand">
-            <h1>Do It Right By You</h1>
+            <h1>Healthcare Demo Template</h1>
             <p className="tagline">CARE · SUPPORT · INCLUSION.</p>
           </header>
           <main>
@@ -71,13 +71,13 @@ function App() {
             
             {/* NAP for Local SEO */}
             <div className="footer-address" style={{ textAlign: 'center', marginBottom: '1.5rem', color: '#666', fontSize: '0.9rem', lineHeight: '1.6' }}>
-              <strong>Do It Right By You</strong><br />
-              80 Laurel Ave<br />
-              Trenton, NJ 08618<br />
-              <a href="tel:+16099479520" style={{ color: '#5DA9DD', textDecoration: 'none' }}>609-947-9520</a> | <a href="mailto:care@doitrightbyyou.com" style={{ color: '#5DA9DD', textDecoration: 'none' }}>care@doitrightbyyou.com</a>
+              <strong>Healthcare Demo Template</strong><br />
+              123 Healthcare Way<br />
+              Cityville, State 00000<br />
+              <a href="tel:+15551234567" style={{ color: '#5DA9DD', textDecoration: 'none' }}>555-123-4567</a> | <a href="mailto:demo@healthcare-template.com" style={{ color: '#5DA9DD', textDecoration: 'none' }}>demo@healthcare-template.com</a>
             </div>
 
-            <p>&copy; {new Date().getFullYear()} Do It Right By You. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Healthcare Demo Template. All rights reserved.</p>
             
             {/* Security Badge */}
             <div style={{ marginTop: '1rem', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '0.5rem', opacity: 0.7 }}>

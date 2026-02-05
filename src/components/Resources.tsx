@@ -62,7 +62,7 @@ export const Resources = () => {
   return (
     <section id="resources" className="resources-section">
       <Helmet>
-        <title>Resources & Guides | Do It Right By You</title>
+        <title>Resources & Guides | Healthcare Demo Template</title>
         <meta name="description" content="Helpful resources for individuals with disabilities and free guides for families in New Jersey." />
       </Helmet>
       

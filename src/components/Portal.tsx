@@ -125,7 +125,7 @@ export const Portal = () => {
   return (
     <section className="portal-section" style={{backgroundColor: '#f4f6f8', minHeight: '80vh'}}>
       <Helmet>
-        <title>Provider Dashboard | Do It Right By You</title>
+        <title>Provider Dashboard | Healthcare Demo Template</title>
       </Helmet>
 
       {/* Portal Header */}

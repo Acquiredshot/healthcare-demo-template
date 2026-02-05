@@ -18,7 +18,7 @@ export const Login = () => {
   return (
     <section className="login-section section-padding">
       <Helmet>
-        <title>Client Portal Login | Do It Right By You</title>
+        <title>Client Portal Login | Healthcare Demo Template</title>
       </Helmet>
       
       <div className="login-container card" style={{maxWidth: '400px', margin: '4rem auto', padding: '2rem', textAlign: 'center'}}>

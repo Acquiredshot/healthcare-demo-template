@@ -90,7 +90,7 @@ export const StaffPortal = () => {
   return (
     <section className="portal-section" style={{backgroundColor: '#1a202c', minHeight: '100vh', color: 'white'}}>
       <Helmet>
-        <title>Staff Admin Panel | Do It Right By You</title>
+        <title>Staff Admin Panel | Healthcare Demo Template</title>
       </Helmet>
 
       {/* Header */}

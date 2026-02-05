@@ -40,7 +40,7 @@ export const Booking = () => {
   return (
     <section className="booking-section section-padding">
       <Helmet>
-        <title>Secure Booking | Do It Right By You</title>
+        <title>Secure Booking | Healthcare Demo Template</title>
         <meta name="description" content="Schedule a consultation or service securely. HIPAA compliant appointment booking." />
       </Helmet>
       

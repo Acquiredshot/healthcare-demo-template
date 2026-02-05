@@ -13,7 +13,7 @@ export const Services = () => {
   return (
     <section id="services" className="services-section">
       <Helmet>
-        <title>Services | Do It Right By You</title>
+        <title>Services | Healthcare Demo Template</title>
         <meta name="description" content="Our services include individual support, in-home care, community activities, transportation assistance, and medication management." />
       </Helmet>
       <h2 className="section-title">Our Services</h2>

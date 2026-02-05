@@ -11,7 +11,10 @@ export const StaffLogin = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Mock validation
-    if (formData.email.endsWith('@doitrightbyyou.com') || formData.password === 'admin123') {
+    // Allow any email for demo purposes or a specific demo domain
+    const isValidEmail = formData.email.includes('@'); 
+    
+    if ((isValidEmail) || formData.password === 'admin123') {
       localStorage.setItem('isStaffAuthenticated', 'true');
       navigate('/staff-portal');
     } else {
@@ -22,7 +25,7 @@ export const StaffLogin = () => {
   return (
     <section style={{minHeight: '80vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#1a202c'}}>
       <Helmet>
-        <title>Staff Login | Do It Right By You</title>
+        <title>Staff Login | Healthcare Demo Template</title>
       </Helmet>
       
       <div style={{background: '#2d3748', padding: '3rem', borderRadius: '8px', boxShadow: '0 4px 6px rgba(0,0,0,0.1)', width: '100%', maxWidth: '400px', border: '1px solid #4a5568'}}>
@@ -49,7 +52,7 @@ export const StaffLogin = () => {
               value={formData.email}
               onChange={(e) => setFormData({...formData, email: e.target.value})}
               style={{width: '100%', padding: '0.8rem', borderRadius: '4px', border: '1px solid #4a5568', background: '#1a202c', color: 'white'}}
-              placeholder="name@doitrightbyyou.com"
+              placeholder="admin@healthcare-demo.com"
             />
           </div>
 

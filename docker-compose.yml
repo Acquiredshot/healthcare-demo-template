@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  healthcare-demo:
+    build: .
+    image: healthcare-demo-template
+    container_name: healthcare_demo
+    ports:
+      - "8080:80"
+    restart: always
